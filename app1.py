@@ -1,8 +1,6 @@
-import sqlite3
-from turtle import st
-from flask import Flask, render_template, url_for, request, redirect, session, flash
-from markupsafe import escape
-from flask_sqlalchemy import SQLAlchemy
+
+from flask import Flask, render_template, url_for
+
 
 
 
