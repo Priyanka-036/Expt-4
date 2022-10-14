@@ -2,7 +2,7 @@
 from flask import Flask, render_template, url_for
 
 
-
+app = Flask(__name__)
 
 @app.route('/')
 def index():
@@ -10,4 +10,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app1.run(debug=True)
+    app.run(debug=True)
